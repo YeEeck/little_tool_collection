@@ -1,18 +1,18 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>组合数计算器</h1>
+    <CNC />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import CNC from "@/components/CNC.vue";
 
 export default {
-  name: 'Home',
+  name: "CombinationNumberCal",
   components: {
-    HelloWorld
-  }
-}
+    CNC,
+  },
+};
 </script>
